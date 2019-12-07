@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Wrapper for Public360 rpc service",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "standard && npm audit && ava",
     "test-offline": "standard && ava",
