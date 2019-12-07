@@ -21,12 +21,12 @@ For a full list of calls and callbacks see the documentation  [here](https://git
   const p360 = require('@vtfk/p360')
 
   const options = {
-    instanceUrl: 'server.domain.no',
-    accesKey: 'your-rpc-access-key'
+    host: 'server.domain.no',
+    authKey: 'your-rpc-auth-key'
   }
   try {
     const client = p360(options)
-    const contactService = client.ContactService
+    const { ContactService } = client
     const result  = await contactService.GetContactPersons({ parameter: { Name: 'Maccyber%' } })
     console.log(JSON.stringify(result, null, 2))
   } catch (error) {
