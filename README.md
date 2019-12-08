@@ -22,7 +22,7 @@ For a full list of calls and callbacks see the documentation  [here](https://git
 
   const options = {
     host: 'server.domain.no',
-    authKey: 'your-rpc-auth-key'
+    authkey: 'your-rpc-auth-key'
   }
   try {
     const client = p360(options)

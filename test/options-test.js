@@ -13,7 +13,7 @@ test('it requires options.host to exist', t => {
   const error = t.throws(() => {
     p360({
       host: false,
-      authKey: true
+      authkey: true
     })
   }, TypeError)
 
@@ -24,9 +24,9 @@ test('it requires options.authKey to exist', t => {
   const error = t.throws(() => {
     p360({
       host: true,
-      authKey: false
+      authkey: false
     })
   }, TypeError)
 
-  t.is(error.message, 'Missing required input: options.authKey')
+  t.is(error.message, 'Missing required input: options.authkey')
 })

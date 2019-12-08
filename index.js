@@ -7,7 +7,7 @@ const UserService = require('./lib/user-service')
 module.exports = options => {
   if (!options) throw TypeError('Missing required input: options')
   if (!options.host) throw TypeError('Missing required input: options.host')
-  if (!options.authKey) throw TypeError('Missing required input: options.authKey')
+  if (!options.authkey) throw TypeError('Missing required input: options.authkey')
 
   return {
     CaseService: CaseService(options),
