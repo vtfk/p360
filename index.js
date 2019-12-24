@@ -3,6 +3,7 @@ const ContactService = require('./lib/contact-service')
 const DocumentService = require('./lib/document-service')
 const EstateService = require('./lib/estate-service')
 const FileService = require('./lib/file-service')
+const ProjectService = require('./lib/project-service')
 const UserService = require('./lib/user-service')
 
 module.exports = options => {
@@ -16,6 +17,7 @@ module.exports = options => {
     DocumentService: DocumentService(options),
     EstateService: EstateService(options),
     FileService: FileService(options),
+    ProjectService: ProjectService(options),
     UserService: UserService(options)
   }
 }
