@@ -1,6 +1,7 @@
 const CaseService = require('./lib/case-service')
 const ContactService = require('./lib/contact-service')
 const DocumentService = require('./lib/document-service')
+const EstateService = require('./lib/estate-service')
 const FileService = require('./lib/file-service')
 const UserService = require('./lib/user-service')
 
@@ -13,6 +14,7 @@ module.exports = options => {
     CaseService: CaseService(options),
     ContactService: ContactService(options),
     DocumentService: DocumentService(options),
+    EstateService: EstateService(options),
     FileService: FileService(options),
     UserService: UserService(options)
   }
