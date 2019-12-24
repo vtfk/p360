@@ -1,3 +1,4 @@
+const AccessGroupService = require('./lib/accessgroup-service')
 const CaseService = require('./lib/case-service')
 const ContactService = require('./lib/contact-service')
 const DocumentService = require('./lib/document-service')
@@ -12,6 +13,7 @@ module.exports = options => {
   if (!options.authkey) throw TypeError('Missing required input: options.authkey')
 
   return {
+    AccessGroupService: AccessGroupService(options),
     CaseService: CaseService(options),
     ContactService: ContactService(options),
     DocumentService: DocumentService(options),
