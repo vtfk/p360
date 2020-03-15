@@ -44,7 +44,7 @@
     "ava": "2.4.0",
     "coveralls": "3.0.9",
     "nyc": "15.0.0",
-    "standard": "14.3.2"
+    "standard": "14.3.3"
   },
   "dependencies": {
     "axios": "0.19.2"
