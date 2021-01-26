@@ -24,15 +24,15 @@
     "Public360"
   ],
   "author": {
-    "name": "Geir Gåsodden",
-    "email": "geir.gasodden@pythonia.no",
-    "url": "https://github.com/zrrrzzt"
+    "name": "Mats Andreassen",
+    "email": "mats.andreassen@vtfk.no",
+    "url": "https://github.com/matsand"
   },
   "contributors": [
     {
-      "name": "Mats Andreassen",
-      "email": "mats.andreassen@vtfk.no",
-      "url": "https://github.com/matsand"
+      "name": "Rune Moskvil Lyngås",
+      "email": "rune.moskvil.lyngaas@vtfk.no",
+      "url": "https://github.com/runely"
     }
   ],
   "license": "MIT",
