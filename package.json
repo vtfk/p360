@@ -47,7 +47,7 @@
     "standard": "14.3.3"
   },
   "dependencies": {
-    "axios": "0.19.2"
+    "axios": "0.21.1"
   },
   "engines": {
     "node": ">=10.18.0"
