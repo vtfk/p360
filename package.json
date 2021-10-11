@@ -1,6 +1,6 @@
 {
   "name": "@vtfk/p360",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Wrapper for Public 360 SIF RPC Web Service from Tieto",
   "main": "index.js",
   "publishConfig": {
