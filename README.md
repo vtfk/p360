@@ -4,24 +4,25 @@
 # p360
 
 Node wrapper for Public 360 SIF RPC Web Service from [Tieto](https://www.tieto.no/).
+Updated version of @serussi/p360.
 
 # Installation
 
 ```bash
-$ npm install @vtfk/p360 --save
+$ npm install @serussi/p360 --save
 ```
 
 ## SIF documentation
 
 SI Integration Framework (SIF) is public 360s RPC-webservice.
 
-For a full list of calls and callbacks see the documentation  [here](https://github.com/telemark/skoleskyss-arbeid/blob/master/biztalk/GenericWebServiceLayer.pdf)
+For a full list of calls and callbacks see the documentation [here](https://github.com/telemark/skoleskyss-arbeid/blob/master/biztalk/GenericWebServiceLayer.pdf)
 
 ## Usage
 
 ```JavaScript
 (async () => {
-  const p360 = require('@vtfk/p360')
+  const p360 = require('@serussi/p360')
 
   const options = {
     host: 'server.domain.no',
